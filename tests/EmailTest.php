@@ -30,13 +30,10 @@ final class EmailTest extends TestCase
     
     public function testnewIndia() : void{
 		
-		$this->assertEquals(8,Email::multiplytwonnumner(2,3));
+		$this->assertEquals(6,Email::multiplytwonnumner(2,3));
 		
 	}
-    
-    
-    
-    
+      
     
 }
 
